@@ -64,7 +64,9 @@
             content: '';
             position: absolute;
             inset: 0;
-            background: rgba(0, 0, 0, 0.45);
+            background: radial-gradient(circle at center,
+                    rgba(0, 0, 0, 0.25) 0%,
+                    rgba(0, 0, 0, 0.55) 100%);
         }
 
         /* ── CARD ── */
@@ -351,7 +353,7 @@
         }
 
         .soc-blk {
-            background: #181717;
+            background: #FF5722;
         }
 
         .soc-li {
@@ -409,7 +411,7 @@
             transition: color 0.2s ease, transform 0.2s ease;
         }
 
-       
+
 
         .bio {
             font-family: 'Inter', sans-serif;
@@ -433,6 +435,7 @@
             flex-direction: column;
             align-items: center;
             gap: 6px;
+
         }
 
         .footer-logo {
@@ -475,7 +478,7 @@
         }
 
         .footer-text {
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: rgba(255, 255, 255, 0.4);
             letter-spacing: 0.02em;
         }
@@ -654,7 +657,7 @@
 
                 <a href="https://mobilephotographylearner.blogspot.com/?m=1" target="_blank" rel="noopener"
                     class="soc-blk" title="blogger">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#FF5722" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M14 3H9a6 6 0 0 0-6 6v6a6 6 0 0 0 6 6h6a6 6 0 0 0 6-6v-4a2 2 0 0 0-2-2h-1a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2zm-2 8h-2a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2zm3 5H9a1 1 0 0 1 0-2h6a1 1 0 0 1 0 2z" />
                     </svg>
@@ -722,21 +725,7 @@
 
             <!-- FOOTER always at bottom of card -->
             <div class="footer">
-                <div class="footer-logo">
-                    <div class="footer-avatar">
-                        <svg viewBox="0 0 24 24" fill="#fff">
-                            <ellipse cx="12" cy="8" rx="5" ry="5.5" />
-                            <path d="M2 20 Q2 14 12 14 Q22 14 22 20Z" />
-                        </svg>
-                    </div>
-                    <div class="footer-me-badge">me</div>
-                    <div class="footer-text">Create Your Profile On <strong>Linkme</strong></div>
-                </div>
-                <div class="footer-links">
-                    <a href="#">Privacy Policy</a> &nbsp;|&nbsp;
-                    <a href="#">Terms</a> &nbsp;|&nbsp;
-                    <a href="#">Report</a>
-                </div>
+                <div class="footer-text">Delhi | @introvertfilmmaker</div>
             </div>
         </div>
 
